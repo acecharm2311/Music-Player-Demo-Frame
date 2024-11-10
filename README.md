@@ -16,10 +16,13 @@ ________________________________________________________________________________
 
 
 1. Project Setup:
+
   Prerequisites
+
     •	IDE: Code::Blocks (recommended)
     •	Compiler: GCC (GNU Compiler Collection)
     •	Libraries:
+
         o	<stdio.h> and <stdlib.h> for file handling and standard input/output
         o	<string.h> for string manipulation
         o	Optional: Additional libraries for audio decoding (if real audio decoding support is added)
@@ -30,6 +33,7 @@ ________________________________________________________________________________
       o	Select Console Application.
       o	Choose C as the programming language.
       o	Set the project name and save the project in a designated folder.
+ 
   Step 1.2: Project Structure
     •	Create directories for organizing files:
       o	src/ - for source files
@@ -40,6 +44,7 @@ ________________________________________________________________________________
 
 2. Core Modules and Architecture
   The project is organized into separate modules for readability and maintainability.
+
    Step 2.1: Core Modules
     •	main.c: Handles the main program flow and user interactions.
     •	player.c and player.h: Core functionalities of the music player (e.g., play, pause, stop).
