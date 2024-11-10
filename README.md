@@ -1,8 +1,8 @@
-# Music-Player-Demo-Frame
+# **Music-Player-Demo-Frame**
 Overview: The Music Player Framework in C offers a lightweight and efficient structure that replicates the core features of contemporary music player applications such as Windows Media Player, VLC, and Google Play Music.
 The Music Player Framework in C is a compact, efficient solution that captures the core functionality of modern music players like VLC and Windows Media Player. Designed to work with popular audio formats (MP3, AAC, OGG Vorbis), this project demonstrates the power and versatility of the C language. Inspired by classic UNIX systems, it features a minimalist user interface for a focused, distraction-free experience. With built-in error handling, this framework ensures reliable playback and serves as a solid foundation for exploring multimedia application development in C.
 ________________________________________________________________________________
-Table of Contents
+**Table of Contents**
 1.	Project Setup
 2.	Core Modules and Architecture
 3.	File Handling and Audio Support
@@ -11,7 +11,7 @@ Table of Contents
 6.	Compilation and Execution
 7.	Future Enhancements
 ________________________________________________________________________________
-1. Project Setup: 
+1. **Project Setup**: 
 Prerequisites
 •	IDE: Code::Blocks (recommended)
 •	Compiler: GCC (GNU Compiler Collection)
