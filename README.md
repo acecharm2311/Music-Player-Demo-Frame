@@ -103,13 +103,13 @@ ________________________________________________________________________________
    
      Step 6.1: Compile the Program
    
-       •	Use Code::Blocks to build the project by selecting Build > Build and Run.
-       •	Check for any compilation errors and resolve them if necessary.
+       • Use Code::Blocks to build the project by selecting Build > Build and Run.
+       • Check for any compilation errors and resolve them if necessary.
 
    Step 6.2: Run the Program
    
-       •	Once compiled successfully, the program can be executed in a console.
-       •	Test each function (play, pause, stop, load) to ensure they operate as expected.
+       • Once compiled successfully, the program can be executed in a console.
+       • Test each function (play, pause, stop, load) to ensure they operate as expected.
 ________________________________________________________________________________
 
 
@@ -117,7 +117,7 @@ ________________________________________________________________________________
   
    Potential future improvements:
    
-       •	Audio Decoding Integration: Integrate libraries like libmp3lame or libogg for actual playback of supported audio formats.
-       •	Playlist Support: Allow users to create and manage playlists.
-       •	Advanced UI Options: Implement a more interactive UI with additional playback features.
-       •	Cross-Platform Support: Extend compatibility to other systems or environments.
+       • Audio Decoding Integration: Integrate libraries like libmp3lame or libogg for actual playback of supported audio formats.
+       • Playlist Support: Allow users to create and manage playlists.
+       • Advanced UI Options: Implement a more interactive UI with additional playback features.
+       • Cross-Platform Support: Extend compatibility to other systems or environments.
