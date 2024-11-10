@@ -19,24 +19,24 @@ ________________________________________________________________________________
 
    Prerequisites
 
-        •	IDE: Code::Blocks (recommended)
-        •	Compiler: GCC (GNU Compiler Collection)
-        •	Libraries:
+        • IDE: Code::Blocks (recommended)
+        • Compiler: GCC (GNU Compiler Collection)
+        • Libraries:
               o <stdio.h> and <stdlib.h> for file handling and standard input/output
               o <string.h> for string manipulation
               o Optional: Additional libraries for audio decoding (if real audio decoding support is added)
 
       Step 1.1: Project Initialization
    
-        •	Open Code::Blocks IDE.
-        •	Create a new project:
+        • Open Code::Blocks IDE.
+        • Create a new project:
              o	Select Console Application.
              o	Choose C as the programming language.
              o	Set the project name and save the project in a designated folder.
  
       Step 1.2: Project Structure
    
-        •	Create directories for organizing files:
+        • Create directories for organizing files:
              o	src/ - for source files
              o	include/ - for header files
              o	audio/ - for storing sample audio files
@@ -44,34 +44,44 @@ ________________________________________________________________________________
 
 
 2. Core Modules and Architecture
-  The project is organized into separate modules for readability and maintainability.
 
-   Step 2.1: Core Modules
-    •	main.c: Handles the main program flow and user interactions.
-    •	player.c and player.h: Core functionalities of the music player (e.g., play, pause, stop).
-    •	file_manager.c and file_manager.h: Manages audio files, loading file paths, and verifying file formats.
-    •	ui.c and ui.h: Manages the user interface, displaying options and receiving user input.
+   The project is organized into separate modules for readability and maintainability.
+
+      Step 2.1: Core Modules
+   
+          •	main.c: Handles the main program flow and user interactions.
+          •	player.c and player.h: Core functionalities of the music player (e.g., play, pause, stop).
+          •	file_manager.c and file_manager.h: Manages audio files, loading file paths, and verifying file formats.
+          •	ui.c and ui.h: Manages the user interface, displaying options and receiving user input.
 ________________________________________________________________________________
 
 
 3. File Handling and Audio Support
-  This framework handles locally stored audio files in common formats like MP3, AAC, and OGG Vorbis. Since actual decoding of audio formats is complex, this project simulates loading and playback functionality.
-   Step 3.1: Simulating Audio Playback
-    •	Load Audio File: Use file_manager.c to load a file, verifying if it matches one of the supported formats by checking the file extension.
-    •	Simulated Playback: Implement placeholder functions for play, pause, and stop within player.c, which can print messages to simulate playback.
+   
+   This framework handles locally stored audio files in common formats like MP3, AAC, and OGG Vorbis. Since actual decoding of audio formats is complex, this project simulates loading and playback functionality.
+
+      Step 3.1: Simulating Audio Playback
+
+          •	Load Audio File: Use file_manager.c to load a file, verifying if it matches one of the supported formats by checking the file extension.
+          •	Simulated Playback: Implement placeholder functions for play, pause, and stop within player.c, which can print messages to simulate playback.
 ________________________________________________________________________________
 
 
 4. User Interface (UI) Design
-  Step 4.1: Basic UI Layout
-    Design a text-based interface using standard output functions (printf). The UI includes options such as:
-      1.	Play Song
-      2.	Pause Song
-      3.	Stop Song
-      4.	Load Another Song
-      5.	Exit
+
+   Step 4.1: Basic UI Layout
+
+      Design a text-based interface using standard output functions (printf). The UI includes options such as:
+   
+         1.	Play Song
+         2.	Pause Song
+         3.	Stop Song
+         4.	Load Another Song
+         5.	Exit
+   
   Step 4.2: Menu Implementation
-    •	In ui.c, implement a loop that displays the main menu and processes user inputs.
+  
+      • In ui.c, implement a loop that displays the main menu and processes user inputs.
 ________________________________________________________________________________
 
 
