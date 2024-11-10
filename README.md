@@ -79,9 +79,9 @@ ________________________________________________________________________________
          4. Load Another Song
          5. Exit
    
-  Step 4.2: Menu Implementation
+     Step 4.2: Menu Implementation
   
-         • In ui.c, implement a loop that displays the main menu and processes user inputs.
+            • In ui.c, implement a loop that displays the main menu and processes user inputs.
 ________________________________________________________________________________
 
 
