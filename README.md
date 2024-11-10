@@ -100,12 +100,15 @@ ________________________________________________________________________________
 
 
 6. Compilation and Execution
-  Step 6.1: Compile the Program
-    •	Use Code::Blocks to build the project by selecting Build > Build and Run.
-    •	Check for any compilation errors and resolve them if necessary.
-  Step 6.2: Run the Program
-    •	Once compiled successfully, the program can be executed in a console.
-    •	Test each function (play, pause, stop, load) to ensure they operate as expected.
+     Step 6.1: Compile the Program
+   
+       •	Use Code::Blocks to build the project by selecting Build > Build and Run.
+       •	Check for any compilation errors and resolve them if necessary.
+
+   Step 6.2: Run the Program
+   
+       •	Once compiled successfully, the program can be executed in a console.
+       •	Test each function (play, pause, stop, load) to ensure they operate as expected.
 ________________________________________________________________________________
 
 
