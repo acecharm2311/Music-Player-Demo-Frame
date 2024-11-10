@@ -23,9 +23,9 @@ ________________________________________________________________________________
         •	Compiler: GCC (GNU Compiler Collection)
         •	Libraries:
 
-        o	<stdio.h> and <stdlib.h> for file handling and standard input/output
-        o	<string.h> for string manipulation
-        o	Optional: Additional libraries for audio decoding (if real audio decoding support is added)
+           o	<stdio.h> and <stdlib.h> for file handling and standard input/output
+           o	<string.h> for string manipulation
+           o	Optional: Additional libraries for audio decoding (if real audio decoding support is added)
 
       Step 1.1: Project Initialization
    
