@@ -17,11 +17,11 @@ ________________________________________________________________________________
 
 1. Project Setup:
 
-    Prerequisites
+   Prerequisites
 
-    •	IDE: Code::Blocks (recommended)
-    •	Compiler: GCC (GNU Compiler Collection)
-    •	Libraries:
+        •	IDE: Code::Blocks (recommended)
+        •	Compiler: GCC (GNU Compiler Collection)
+        •	Libraries:
 
         o	<stdio.h> and <stdlib.h> for file handling and standard input/output
         o	<string.h> for string manipulation
