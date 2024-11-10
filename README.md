@@ -87,8 +87,8 @@ ________________________________________________________________________________
 
 5. Runtime Exception Handling
    
-  To make the program robust, handle potential errors, such as missing files or unsupported formats.
-     
+   To make the program robust, handle potential errors, such as missing files or unsupported formats.
+   
    Step 5.1: Error Handling Functions
        
        Define error handling functions in error_handling.c to:
@@ -100,6 +100,7 @@ ________________________________________________________________________________
 
 
 6. Compilation and Execution
+   
      Step 6.1: Compile the Program
    
        •	Use Code::Blocks to build the project by selecting Build > Build and Run.
@@ -113,8 +114,10 @@ ________________________________________________________________________________
 
 
 7. Future Enhancements
-  Potential future improvements:
-    •	Audio Decoding Integration: Integrate libraries like libmp3lame or libogg for actual playback of supported audio formats.
-    •	Playlist Support: Allow users to create and manage playlists.
-    •	Advanced UI Options: Implement a more interactive UI with additional playback features.
-    •	Cross-Platform Support: Extend compatibility to other systems or environments.
+  
+   Potential future improvements:
+   
+       •	Audio Decoding Integration: Integrate libraries like libmp3lame or libogg for actual playback of supported audio formats.
+       •	Playlist Support: Allow users to create and manage playlists.
+       •	Advanced UI Options: Implement a more interactive UI with additional playback features.
+       •	Cross-Platform Support: Extend compatibility to other systems or environments.
