@@ -49,10 +49,10 @@ ________________________________________________________________________________
 
       Step 2.1: Core Modules
    
-          •	main.c: Handles the main program flow and user interactions.
-          •	player.c and player.h: Core functionalities of the music player (e.g., play, pause, stop).
-          •	file_manager.c and file_manager.h: Manages audio files, loading file paths, and verifying file formats.
-          •	ui.c and ui.h: Manages the user interface, displaying options and receiving user input.
+          • main.c: Handles the main program flow and user interactions.
+          • player.c and player.h: Core functionalities of the music player (e.g., play, pause, stop).
+          • file_manager.c and file_manager.h: Manages audio files, loading file paths, and verifying file formats.
+          • ui.c and ui.h: Manages the user interface, displaying options and receiving user input.
 ________________________________________________________________________________
 
 
@@ -62,8 +62,8 @@ ________________________________________________________________________________
 
       Step 3.1: Simulating Audio Playback
 
-          •	Load Audio File: Use file_manager.c to load a file, verifying if it matches one of the supported formats by checking the file extension.
-          •	Simulated Playback: Implement placeholder functions for play, pause, and stop within player.c, which can print messages to simulate playback.
+          • Load Audio File: Use file_manager.c to load a file, verifying if it matches one of the supported formats by checking the file extension.
+          • Simulated Playback: Implement placeholder functions for play, pause, and stop within player.c, which can print messages to simulate playback.
 ________________________________________________________________________________
 
 
@@ -73,15 +73,15 @@ ________________________________________________________________________________
 
       Design a text-based interface using standard output functions (printf). The UI includes options such as:
    
-         1.	Play Song
-         2.	Pause Song
-         3.	Stop Song
-         4.	Load Another Song
-         5.	Exit
+         1. Play Song
+         2. Pause Song
+         3. Stop Song
+         4. Load Another Song
+         5. Exit
    
   Step 4.2: Menu Implementation
   
-      • In ui.c, implement a loop that displays the main menu and processes user inputs.
+         • In ui.c, implement a loop that displays the main menu and processes user inputs.
 ________________________________________________________________________________
 
 
@@ -93,9 +93,9 @@ ________________________________________________________________________________
        
        Define error handling functions in error_handling.c to:
        
-          •	Check File Existence: Confirm if the audio file exists before attempting to load it.
-          •	Validate Format: Ensure only supported formats are loaded.
-          •	Handle User Input Errors: Verify valid input for menu selections.
+          • Check File Existence: Confirm if the audio file exists before attempting to load it.
+          • Validate Format: Ensure only supported formats are loaded.
+          • Handle User Input Errors: Verify valid input for menu selections.
 ________________________________________________________________________________
 
 
