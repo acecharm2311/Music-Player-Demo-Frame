@@ -86,12 +86,16 @@ ________________________________________________________________________________
 
 
 5. Runtime Exception Handling
+   
   To make the program robust, handle potential errors, such as missing files or unsupported formats.
-  Step 5.1: Error Handling Functions
-    Define error handling functions in error_handling.c to:
-    •	Check File Existence: Confirm if the audio file exists before attempting to load it.
-    •	Validate Format: Ensure only supported formats are loaded.
-    •	Handle User Input Errors: Verify valid input for menu selections.
+     
+   Step 5.1: Error Handling Functions
+       
+       Define error handling functions in error_handling.c to:
+       
+          •	Check File Existence: Confirm if the audio file exists before attempting to load it.
+          •	Validate Format: Ensure only supported formats are loaded.
+          •	Handle User Input Errors: Verify valid input for menu selections.
 ________________________________________________________________________________
 
 
