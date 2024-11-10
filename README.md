@@ -17,7 +17,7 @@ ________________________________________________________________________________
 
 1. Project Setup:
 
-  Prerequisites
+    Prerequisites
 
     •	IDE: Code::Blocks (recommended)
     •	Compiler: GCC (GNU Compiler Collection)
