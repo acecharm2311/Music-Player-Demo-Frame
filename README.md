@@ -27,18 +27,22 @@ ________________________________________________________________________________
         o	<string.h> for string manipulation
         o	Optional: Additional libraries for audio decoding (if real audio decoding support is added)
 
-  Step 1.1: Project Initialization
-    •	Open Code::Blocks IDE.
-    •	Create a new project:
-      o	Select Console Application.
-      o	Choose C as the programming language.
-      o	Set the project name and save the project in a designated folder.
+      Step 1.1: Project Initialization
+   
+        •	Open Code::Blocks IDE.
+        •	Create a new project:
+   
+          o	Select Console Application.
+          o	Choose C as the programming language.
+          o	Set the project name and save the project in a designated folder.
  
-  Step 1.2: Project Structure
-    •	Create directories for organizing files:
-      o	src/ - for source files
-      o	include/ - for header files
-      o	audio/ - for storing sample audio files
+      Step 1.2: Project Structure
+   
+        •	Create directories for organizing files:
+   
+          o	src/ - for source files
+          o	include/ - for header files
+          o	audio/ - for storing sample audio files
 ________________________________________________________________________________
 
 
